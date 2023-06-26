@@ -1,8 +1,9 @@
-/* *{
+ body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-} */
+}
+
 
 h1{
     font-size:  60px;
@@ -18,19 +19,19 @@ h1{
     background-color: rgb(24, 106, 199);
     background-image: url(./Img/pattern.png);
     background-size: auto;
-    height: 150px ;
-
-
+    height: 150px ;    
+    
 }
 
 #Logo{
     height: 50px;
     position: relative;
     left: 0px;;
-    top: 50px;
+    top: 60px;
     height: 100px;
-
+        
 }
+
 
 #autore{
     background-color: transparent;
@@ -41,20 +42,30 @@ h1{
     color: rgb(112, 112, 112);
     margin: 0;
     padding: 0;
+    margin-left: 10px;
     
+}
+
+
+ul{
+    padding-left: 30px;
 }
 
 .small{
     margin: 0;
-    padding: 0;
+    padding-left : 10px;
     font-size: 12px;
     font-weight: 400;
 }
 
+table, td, th, tr {
+    border-spacing: 0;
+    padding-left: 10px;
+  }
 
 
-tbody{
-    background-color: rgba(28, 221, 221, 0.486);
+.color{
+    background-color: rgba(28, 208, 221, 0.486);
 }
 
 thead{
@@ -66,9 +77,24 @@ thead{
 }
 
 
+#foto{
+    background-image: url(./Img/monitor.jpg);
+    background-repeat: no-repeat;
+    height: 200px;  
+}
 
+#foto2{
+    background-image: url(./Img/graph.jpg);
+    background-repeat: no-repeat;
+    height: 200px;
+}
 
-.over{
-    position: absolute;
-    color: rgb(235, 211, 1);
+h2{
+    color: white;
+    padding-left: 15px;
+    padding-top: 1px;
+}
+
+section, footer{
+    padding-left: 10px;
 }
