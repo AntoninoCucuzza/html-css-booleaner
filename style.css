@@ -7,7 +7,11 @@
 h1{
     font-size:  60px;
     font-weight: 800;
+    margin: 0;
+    padding: 0;
+    
 }
+
 
 #header{
     position: relative;
@@ -15,9 +19,7 @@ h1{
     background-image: url(./Img/pattern.png);
     background-size: auto;
     height: 150px ;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+
 
 }
 
@@ -37,17 +39,36 @@ h1{
 
 .lightgray {
     color: rgb(112, 112, 112);
+    margin: 0;
+    padding: 0;
+    
 }
 
 .small{
+    margin: 0;
+    padding: 0;
     font-size: 12px;
     font-weight: 400;
 }
 
-p {
-    /* padding-top: 10px; */
-   /*  padding-bottom: 10px; */
+
+
+tbody{
+    background-color: rgba(28, 221, 221, 0.486);
 }
 
-td{
+thead{
+    background-color: rgb(0, 153, 255);
+}
+
+.bot{
+    padding-bottom: 20px;
+}
+
+
+
+
+.over{
+    position: absolute;
+    color: rgb(235, 211, 1);
 }
