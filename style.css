@@ -27,7 +27,7 @@ h1{
 
 }
 
-mark{
+#autore{
     background-color: transparent;
     color: aqua;
 }
@@ -40,3 +40,9 @@ mark{
     font-size: 12px;
     font-weight: 400;
 }
+
+p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
